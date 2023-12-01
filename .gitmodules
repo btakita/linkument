@@ -1,0 +1,6 @@
+[submodule "lib/ui--server--linkument"]
+	path = lib/ui--server--linkument
+	url = git@github.com:btakita/ui--server--linkument.git
+[submodule "app/linkument.me"]
+	path = app/linkument.me
+	url = git@github.com:btakita/linkument.me.git

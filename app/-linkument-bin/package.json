@@ -1,16 +1,14 @@
 {
-  "name": "linkument",
+  "name": "@linkument/-linkument-bin",
   "module": "index.ts",
   "type": "module",
+  "bin": {
+    "tmux-dev": "./bin/tmux-dev.sh"
+  },
   "devDependencies": {
-    "@linkument/-linkument-bin": "workspace:*",
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  },
-  "workspaces": [
-    "app/*",
-    "lib/*"
-  ]
+  }
 }

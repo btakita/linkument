@@ -3,11 +3,12 @@
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
+    "@ctx-core/monorepo": "^20.5.69",
     "@linkument/-linkument-bin": "workspace:*",
     "bun-types": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.3.2"
   },
   "workspaces": [
     "app/*",
